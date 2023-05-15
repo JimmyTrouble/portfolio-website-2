@@ -226,6 +226,12 @@ input, select, textarea {
 		font-size: 0.6rem;
 	}
 
+	.subhead{
+
+		font-size:15px;
+
+	}
+
 	@media screen and (max-width: 736px) {
 
 		h1 {
@@ -642,7 +648,11 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		width: 100%;
+		height: 100%;
 	}
+
+
 
 		.image:before {
 			pointer-events: none;
@@ -662,6 +672,10 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: fill;
+
 		}
 
 		.image.left, .image.right {
@@ -1140,9 +1154,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1155,7 +1172,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/A000553-R1-20-16.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1299,13 +1316,13 @@ input, select, textarea {
 				font-size: 2rem;
 			}
 
-		#header .content {
+		/* #header .content {
 			border-style: solid;
 			border-color: #ffffff;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
-		}
+		} */
 
 			#header .content .inner {
 				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
